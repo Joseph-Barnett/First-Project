@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+h1 {
+    font-size: 78px;
+}
+h2 {
+    font-size: 12px;
+    color: rgba(101, 202, 303, 0.8);
+}
+#navbar     {
+    background-color: green;
+    overflow: hidden;
+    border: 2px solid black
+}
+#navbar a {
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px 14px;
+    border-right: 2px solid black;
+    text-decoration: none;
+}
+#navbar a:hover {
+    background-color: red;
+    color: white;
