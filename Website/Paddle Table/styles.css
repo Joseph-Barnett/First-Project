@@ -10,11 +10,8 @@ table {
     border: 1px solid black;
     text-align: left;
     padding: 8px;
-    line-height: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: lightgray;
+    line-height: 10px;
+    background-color: white;
   }
 
 .good {

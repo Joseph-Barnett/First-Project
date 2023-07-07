@@ -4,47 +4,48 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Joe-Portfolio</title>
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Logo</a>
+        <img src="Joelogo.jpg" id="logo"/>
         <ul>
             <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
             <li><a href="#Projects">Projects</a></li>
-            <li><a href="#">About</a></li>
         </ul>
     </header>
     <section id="Home">
         <img src="Dartmoor.jpg" id="Dartmoor"/>
-        <a href="#Projects" class="btn">Explore</a>
+        <a href="#About" class="btn">Explore</a>
     </section>
-    <section id="Projects">
+    <section id="About">
         <div class="sec">
-            <h2>Scrolling Website</h2>
+            <h2>About</h2>
             <p>The intellectual content in a physical book need not be a composition, nor even be called a book. Books can consist only of drawings, engravings or photographs, crossword puzzles or cut-out dolls. In a physical book, the pages can be left blank or can feature an abstract set of lines to support entries, such as in an account book, appointment book, autograph book, notebook, diary or sketchbook. Some physical books are made with pages thick and sturdy enough to support other physical objects, like a scrapbook or photograph album. Books may be distributed in electronic form as ebooks and other formats.
+                Although in ordinary academic parlance a monograph is understood to be a specialist academic work, rather than a reference work on a scholarly subject<br></br> library and information science monograph denotes more broadly any non-serial publication complete in one volume (book) or a finite number of volumes (even a novel like Proust's seven-volume In Search of Lost Time), in contrast to serial publications like a magazine, journal or newspaper. An avid reader or collector of books is a bibliophile or, colloquially, "bookworm". Books are traded at both regular stores and specialized bookstores, and people can read borrowed books, often for free, at libraries. Google has estimated that by 2010, approximately 130,000,000 titles had been published.[2]
+                In some wealthier nations, the sale of printed books has decreased because of the increased usage of e-books.[3] Although in most countries printed books continue to outsell their digital counterparts due to many people still preferring to read in a traditional way.[4][5][6][7] The 21st century has also seen a rapid rise in the popularity of audiobooks, which are recordings of books being read aloud.[8]
+                The intellectual content in a physical book need not be a composition, nor even be called a book. Books can consist only of drawings, engravings or photographs, crossword puzzles or cut-out dolls. In a physical book, the pages can be left blank or can feature an abstract set of lines to support entries, such as in an account book, appointment book, autograph book, notebook, diary or sketchbook. Some physical books are made with pages thick and sturdy enough to support other physical objects, like a scrapbook or photograph album. Books may be distributed in electronic form as ebooks and other formats.
                 Although in ordinary academic parlance a monograph is understood to be a specialist academic work, rather than a reference work on a scholarly subject<br></br> library and information science monograph denotes more broadly any non-serial publication complete in one volume (book) or a finite number of volumes (even a novel like Proust's seven-volume In Search of Lost Time), in contrast to serial publications like a magazine, journal or newspaper. An avid reader or collector of books is a bibliophile or, colloquially, "bookworm". Books are traded at both regular stores and specialized bookstores, and people can read borrowed books, often for free, at libraries. Google has estimated that by 2010, approximately 130,000,000 titles had been published.[2]
                 In some wealthier nations, the sale of printed books has decreased because of the increased usage of e-books.[3] Although in most countries printed books continue to outsell their digital counterparts due to many people still preferring to read in a traditional way.[4][5][6][7] The 21st century has also seen a rapid rise in the popularity of audiobooks, which are recordings of books being read aloud.[8]
             </p>
         </div>
     </section>
     <section id="gamesec">
+        <h1 id="project">Projects</h1>
         <div class="left">
             <iframe id="maingame" src="Simple Game/index.html"></iframe>
         </div>
         <div class="right">
-            <h2 class="divheader">Scrolling Website</h2>
-            <p>The intellectual content in a physical book need not be a composition, nor even be called a book. Books can consist only of drawings, engravings or photographs, crossword puzzles or cut-out dolls. In a physical book, the pages can be left blank or can feature an abstract set of lines to support entries, such as in an account book, appointment book, autograph book, notebook, diary or sketchbook. Some physical books are made with pages thick and sturdy enough to support other physical objects, like a scrapbook or photograph album. Books may be distributed in electronic form as ebooks and other formats.
-                Although in ordinary academic parlance a monograph is understood to be a specialist academic work, rather than a reference work on a scholarly subject
-            </p>
+            <h2 class="divheader">Simple Game</h2>
+            <p>After closely following a YouTube tutorial I was able to make a simple game of pong using HTML, CSS and JavaScript. Through doing this process I learnt a lot about coding in these languages such as how to use divs and classes. All I learned from this process came in very useful in the overall construction of this website. In the future I would like to expand upon this game and add a way to track the score so it does not reset every time you play it. Also, I would like to provide the option to use the arrow keys to control the paddle instead of the mouse.<br></br>The link of the YouTube video I followed is:<br></br>https://www.youtube.com/watch?v=PeY6lXPrPaA&t=1318s</https:></p>
         </div>
         <div class="left">
             <iframe id="paddletable" src="Paddle Table/index.html"></iframe>
         </div>
         <div class="right">
-            <h2 class="divheader">Scrolling Website</h2>
-            <p>The intellectual content in a physical book need not be a composition, nor even be called a book. Books can consist only of drawings, engravings or photographs, crossword puzzles or cut-out dolls. In a physical book, the pages can be left blank or can feature an abstract set of lines to support entries, such as in an account book, appointment book, autograph book, notebook, diary or sketchbook. Some physical books are made with pages thick and sturdy enough to support other physical objects, like a scrapbook or photograph album. Books may be distributed in electronic form as ebooks and other formats.
-                Although in ordinary academic parlance a monograph is understood to be a specialist academic work, rather than a reference work on a scholarly subject
+            <h2 class="divheader">API Fed River Data Gatherer</h2>
+            <p>The concept of this table is to gather information about the river Dart in Devon and display it in a clean and readable way. The data is gathered through an API call and is translated straight into the table, so it always displays the most updated information. The concept of this table is to provide a paddler all they would need to know before paddling the river. The bottom box of data features a simple if statement that tells the colour of the box to change if the water in the river is above a certain level. If the box is green, then there is enough water to paddle and red means the water is too low. The main way that I would like to build upon this table is to provide information on more rivers in the UK. It would also be handy to display the grade of difficulty that the river is as well as provide personalised details about each river.<br></br>The link of the data I used for the API is:<br></br>https://environment.data.gov.uk/flood-monitoring/id/stations?riverName=River+Dart                
             </p>
         </div>
     </section>
