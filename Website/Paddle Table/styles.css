@@ -3,7 +3,7 @@
 table {
     font-family: 'Secular One', sans-serif;
     border-collapse: collapse;
-    width: 40%;
+    width: 100%;
   }
   
   td, th {
@@ -23,4 +23,8 @@ table {
 
 .bad {
   background-color: red;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

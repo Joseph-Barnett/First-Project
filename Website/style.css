@@ -22,6 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
 }
 
 header .logo {
@@ -64,7 +65,7 @@ header ul li a.active {
 
 .sec {
     position: relative;
-    padding: 5vw;
+    padding: 4vw;
     background: beige;
 }
 
@@ -82,11 +83,13 @@ header ul li a.active {
 #maingame {
     height: 40vh;
     width: 40vw;
+    border: 0;
 }
 
 #paddletable {
     height: 40vh;
     width: 40vw;
+    border: 0;
 }
 
 #Home .btn {
@@ -106,18 +109,27 @@ header ul li a.active {
 
 .left {
     height: 40vh;
-    margin: 5vw;
     width: 40vw;
     float: left;
+    margin: 4vw;
 }
 
 .right {
     height: 40vh;
     width: 40vw;
     float: right;
-    margin: 5vw;
+    margin: 4vw;
+    overflow-y: scroll;
+}
+
+.right::-webkit-scrollbar {
+    display: none;
 }
 
 #gamesec {
     height: 40vh;
+}
+
+.divheader {
+    padding-bottom: 1.5vh;
 }
