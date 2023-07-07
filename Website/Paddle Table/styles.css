@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+table {
+    font-family: 'Secular One', sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    line-height: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: lightgray;
+  }
+
+.good {
+  background-color: green;
+}
+
+.bad {
+  background-color: red;
+}

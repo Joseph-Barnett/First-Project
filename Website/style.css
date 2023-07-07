@@ -64,7 +64,7 @@ header ul li a.active {
 
 .sec {
     position: relative;
-    padding: 100px;
+    padding: 5vw;
     background: beige;
 }
 
@@ -80,11 +80,13 @@ header ul li a.active {
 }
 
 #maingame {
-    width: 40%;
-    height: 40%;
-    padding: 10px;
-    margin: auto;
-    display: block;
+    height: 40vh;
+    width: 40vw;
+}
+
+#paddletable {
+    height: 40vh;
+    width: 40vw;
 }
 
 #Home .btn {
@@ -100,4 +102,22 @@ header ul li a.active {
     border: none;
     cursor: pointer;
     border-radius: 40px;
+}
+
+.left {
+    height: 40vh;
+    margin: 5vw;
+    width: 40vw;
+    float: left;
+}
+
+.right {
+    height: 40vh;
+    width: 40vw;
+    float: right;
+    margin: 5vw;
+}
+
+#gamesec {
+    height: 40vh;
 }
