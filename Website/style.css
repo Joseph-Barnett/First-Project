@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,27 +14,73 @@ body {
     background-color: #ffc800;
 }
 
+#titlearrow {
+    color: #fd3430;
+    z-index: 2;
+    position: absolute;
+    top: 62.5%;
+    left:62.5%;
+    transform: translate(-50%, -50%) rotate(90deg); 
+    -ms-transform: translate(-50%, -50%);
+    font-size: 9vw;
+    width: 100%;
+    height: 26px;
+    padding: 0;
+    margin: 0;
+    margin-top: -13px;
+    text-align: center;
+    display: inline-block;
+}
+
+#webtitle {
+    color: #fd3430;
+    font-family: 'Pacifico', cursive;
+    z-index: 2;
+    position: absolute;
+    top: 37.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 6vw;
+    width: 100%;
+    height: 26px;
+    padding: 0;
+    margin: 0;
+    margin-top: -13px;
+    text-align: center;
+}
+
+#Home .btn {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ffc800;
+    color: black;
+    font-size: 2vw;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
 header {
     position: sticky;
     background-color: #6536f3;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 12px 30px 12px 100px;
+    padding: 12px 30px 12px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
 
-header .logo {
-    position: absolute;
-    color: #ffc800;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+#logo {
+    position: relative;
+    float: left;
 }
 
 header ul {
@@ -60,16 +108,38 @@ header ul li a.active {
     color: green;
 }
 
+#About {
+    border-bottom: dotted 40px #6536f3;
+    padding-top: 20px;
+}
+
+#gamesec {
+    height: 40vh;
+    background-color: #ffc800;
+}
+
+#Projects {
+    font-family: 'Pacifico', cursive;
+    color: #fd3430;
+    position: relative;
+    font-size: 56px;
+    padding-top: 4vw;
+    padding-left: 4vw;
+}
+
 #About h2 {
     color: #fd3430;
-} 
+    font-family: 'Pacifico', cursive;
+}
 
 h2 {
     color: #fd3430;
+    font-family: 'Pacifico', cursive;
 }
 
 #Dartmoor {
     width: 100%;
+    height: 60%;
 }
 
 .sec {
@@ -89,12 +159,6 @@ h2 {
     color: black;
 }
 
-#Projects {
-    color: #fd3430;
-    position: relative;
-    font-size: 56px;
-    padding: 0 0 0 4vw;
-}
 
 #maingame {
     height: 40vh;
@@ -108,20 +172,6 @@ h2 {
     border: 0;
 }
 
-#Home .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #ffc800;
-    color: black;
-    font-size: 32px;
-    padding: 12px 30px;
-    border: none;
-    cursor: pointer;
-    border-radius: 40px;
-}
 
 .left {
     height: 40vh;
@@ -140,11 +190,6 @@ h2 {
 
 .right::-webkit-scrollbar {
     display: none;
-}
-
-#gamesec {
-    height: 40vh;
-    background-color: #ffc800;
 }
 
 .divheader {
