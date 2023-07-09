@@ -19,7 +19,7 @@ body {
     z-index: 2;
     position: absolute;
     top: 62.5%;
-    left:62.5%;
+    left: 68%;
     transform: translate(-50%, -50%) rotate(90deg); 
     -ms-transform: translate(-50%, -50%);
     font-size: 9vw;
@@ -63,6 +63,7 @@ body {
     border: none;
     cursor: pointer;
     border-radius: 40px;
+    text-decoration: none;
 }
 
 header {
@@ -102,15 +103,15 @@ header ul li a {
     color: black;
 }
 
-header ul li a:hover,
-header ul li a.active {
-    background: red;
-    color: green;
+header ul li:hover,
+header ul li.active {
+    background: #fd3430;
+    color: black;
 }
 
 #About {
     border-bottom: dotted 40px #6536f3;
-    padding-top: 20px;
+    padding-top: 2.5vw;
 }
 
 #gamesec {
@@ -123,21 +124,23 @@ header ul li a.active {
     color: #fd3430;
     position: relative;
     font-size: 56px;
-    padding-top: 4vw;
+    padding-top: 6vw;
     padding-left: 4vw;
 }
 
 #About h2 {
+    
     color: #fd3430;
     font-family: 'Pacifico', cursive;
 }
 
 h2 {
+    font-size: 38px;
     color: #fd3430;
     font-family: 'Pacifico', cursive;
 }
 
-#Dartmoor {
+#image {
     width: 100%;
     height: 60%;
 }
@@ -155,8 +158,14 @@ h2 {
 }
 
 .sec p {
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: black;
+}
+
+.right p {
+    font-size: 1.4em;
+    color: black;
+
 }
 
 
