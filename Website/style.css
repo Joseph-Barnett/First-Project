@@ -18,6 +18,39 @@ body {
     background-color: #ffc800;
 }
 
+i {
+    position: absolute;
+    top: 75%;
+    left: 47.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer; 
+}
+
+#cv {
+    position: absolute;
+    top: 75%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #fd3430;
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#github {
+    position: absolute;
+    top: 75%;
+    left: 47.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0);
+    z-index: 5;
+}
+
 #titlearrow {
     color: #fd3430;
     z-index: 2;
@@ -133,9 +166,13 @@ header ul li.active {
 }
 
 #About h2 {
-    
     color: #fd3430;
     font-family: 'Pacifico', cursive;
+}
+
+#About p {
+    padding-top: 1vw;
+    line-height: 47px;
 }
 
 h2 {
@@ -169,7 +206,7 @@ h2 {
 .right p {
     font-size: 1.4em;
     color: black;
-
+    padding-right: 10px;
 }
 
 
@@ -201,8 +238,21 @@ h2 {
     overflow-y: scroll;
 }
 
+.right::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #daab05;
+}
+
 .right::-webkit-scrollbar {
-    display: none;
+    width: 12px;
+    background-color: #ffc800;
+}
+
+.right::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #fd3430;
 }
 
 .divheader {
